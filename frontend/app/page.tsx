@@ -1,6 +1,5 @@
 "use client"; // Ajoutez cette ligne pour indiquer que c'est un composant client
 import React from 'react';
-import './i18n';
 import styled from 'styled-components';
 import DashboardLayout  from "./dashboard/layout"
 import AuthForm from './login/page';

@@ -101,7 +101,7 @@ interface Table {
   id: number;
   title: string;
   tablep: string;
-  tableicon: JSX.Element;
+  tableicon: React.ReactElement;
   h3: string;
   titledeux: string;
   h3un: string;

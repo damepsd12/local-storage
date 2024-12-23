@@ -19,7 +19,7 @@ interface Product {
   nameGroup: string;
   description: string;
   dosage: number;
-  stock: string;
+  stock: number;
   price: number;
   currency: string;
 }
@@ -162,8 +162,8 @@ const Modal: React.FC<ModalProps> = ({ isopen, onClose }) => {
       name: "",
       nameGroup: "",
       description: "",
-      dosage: "",
-      stock: "",
+      dosage: 0,
+      stock: 0,
       price: 0,
       currency: "FCFA",
     });
@@ -220,8 +220,8 @@ const Modal: React.FC<ModalProps> = ({ isopen, onClose }) => {
           name: "",
           nameGroup: "",
           description: "",
-          dosage: "",
-          stock: "",
+          dosage: 0,
+          stock: 0,
           price: 0,
           currency: "FCFA",
         });
